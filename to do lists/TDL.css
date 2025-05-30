@@ -1,0 +1,95 @@
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #8052ec,
+        #d161ff
+    );
+}
+.container{
+    /* border: 2px solid white; */
+    width: 400px;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    /* for that snall boder white box to appaer use padding  */
+    padding: 30px 40px;
+}
+#newtask{
+    position: relative;
+    background-color: whitesmoke;
+    padding: 30px 20px;
+    border-radius: 6px;
+    box-shadow: 0 15px 30px rgba(0 ,0 ,0, 0.3);
+
+}
+#newtask input{
+    position: relative;
+    width: 70%;
+    height: 45px;
+    font-size: 25px;
+    border: 2px solid magenta;
+    padding: 12px;
+    color: black;
+    border-radius: 6px;
+    outline: none;
+    resize: vertical;
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    padding: 12px;
+    margin-top: 4.5%;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: #8052ec;
+    border: #8052ec;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#tasks{
+    background-color: whitesmoke;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 15px 30px #8052ec ;
+}
+button{
+    font-size: 20px;
+}
+.task{
+    background: white;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 2px solid white; */
+    cursor: pointer;
+}
+.task span{
+    font-size: 25px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #8052ec;
+    color: white;
+    height: 75%;
+    width: 15%;
+    cursor: pointer;
+    border: #8052ec;
+    border-radius: 6px;
+}
+i{
+    font-size: 28px;
+}
+.completed{
+    text-decoration: line-through;
+}
